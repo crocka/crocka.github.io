@@ -1,7 +1,7 @@
 import React from "react";
 import $ from "jquery";
 
-import logo1 from "../img/male1.png";
+import logo1 from "../img/male.png";
 import logo2 from "../img/male.png";
 
 class Navbar extends React.Component {
@@ -89,8 +89,8 @@ class Navbar extends React.Component {
           <a className="navbar-brand js-scroll" href="#page-top">
             <img
               src={this.state.logo}
-              alt="logo"
-              style={{ maxWidth: "100px" }}
+              alt="Avatar"
+              style={{ maxWidth: "100px", borderRadius: "100px" }}
             />
           </a>
           <button
@@ -123,7 +123,7 @@ class Navbar extends React.Component {
               </li>
               <li className="nav-item">
                 <a className="nav-link js-scroll" href="#work">
-                  Work
+                  Project
                 </a>
               </li>
               <li className="nav-item">

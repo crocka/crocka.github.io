@@ -21,7 +21,7 @@ class Contact extends React.Component {
                       </div>
                       <div>
                         <form
-                          action="https://formspree.io/xdoeonlo"
+                          action="https://formspree.io/f/xdoblbpz"
                           method="POST"
                           className="contactForm"
                         >
@@ -107,7 +107,7 @@ class Contact extends React.Component {
                           collaboration, or just say hi, I'd love to hear from
                           you.
                           <br />
-                          Simply fill the from and send me an email.
+                          Simply fill the form or use the links below.
                         </p>
                         {/* <!-- <ul class="list-ico">
                                 <li><span class="ion-ios-location"></span> 329 WASHINGTON ST BOSTON, MA 02108</li>
@@ -117,20 +117,20 @@ class Contact extends React.Component {
                       </div>
                       <div className="socials">
                         <ul>
-                          <li>
+                          {/* <li>
                             <a
                               href=""
                               target="_blank"
                               rel="noopener noreferrer"
                             >
                               <span className="ico-circle">
-                                <i className="ion-social-codepen"></i>
+                                <i className="ion-social-medium"></i>
                               </span>
                             </a>
-                          </li>
+                          </li> */}
                           <li>
                             <a
-                              href=""
+                              href="https://github.com/crocka"
                               target="_blank"
                               rel="noopener noreferrer"
                             >
@@ -141,7 +141,7 @@ class Contact extends React.Component {
                           </li>
                           <li>
                             <a
-                              href=""
+                              href="https://www.linkedin.com/in/carli-raul-omar/"
                               target="_blank"
                               rel="noopener noreferrer"
                             >
